@@ -1,1 +1,1 @@
-** CalSD B2B Marketplace WordPress Plugin
+CalSD B2B Marketplace WordPress Plugin
