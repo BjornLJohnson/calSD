@@ -25,10 +25,10 @@ get_header(); ?>
 
 <?php endif ?>
 
-	<div id="primary">
+	<div id="primary" <?php astra_primary_class(); ?>>
 
-        <div>Listings Page</div>
-        <div>Insert all listings here</div>
+        <div>New Listing</div>
+        <div>Insert form here</div>
 
 	</div><!-- #primary -->
 

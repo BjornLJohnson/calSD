@@ -49,13 +49,8 @@ class CalSD_Activator {
 
 		  $newListingPageID = wp_insert_post( $newListingPage );
 
-		  if(!empty($listingsTemplate)){
-			update_post_meta($listingsPageID, ‘_wp_page_template’, $listingsTemplate);
-		  }
-
-		  if(!empty($newListingTemplate)){
-			update_post_meta($newListingPageID, ‘_wp_page_template’, $newListingTemplate);
-		  }
+		  update_post_meta($listingsPageID, ‘_wp_page_template’, $listingsTemplate);
+		  update_post_meta($newListingPageID, ‘_wp_page_template’, $newListingTemplate);
 
 		  // save page ids into database
 		  update_option( 'listingsPageID', $listingsPageID );
